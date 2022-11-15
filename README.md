@@ -24,8 +24,8 @@ You can go to the examples folder, however the usage of the module could be like
 
 ```hcl
 module "vpc" {
-    source  = "terraform-google-modules/network/google"
-    version = "~> 4.0"
+    source  = "elvinlari/cloud-network-module/gcp"
+    version = "1.0.1"
 
     project_id   = "<PROJECT ID>"
     network_name = "example-vpc"
